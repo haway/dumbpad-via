@@ -10,7 +10,7 @@ Dumbpad With VIA Configurator
 
 ## VIA Configurator
 
-[VIA Configurator](https://caniusevia.com/) is a online configurator tool, it can change your keyboard layout realtime. No need to recompile or reflash the firmware.
+[VIA Configurator](https://caniusevia.com/) is a online configurator tool, it can change your keyboard layout in realtime. No need to recompile or reflash the firmware.
 
 But if you want some functions like, Encoder, User space, code. It can't help you.
 
@@ -23,14 +23,15 @@ Add the setting in your `rules.mk`, create it if doesn't exist.
 > VIA_ENABLE = yes
 
 ### Setup your encoder KEYCODE
-The VIA Configurator doesn't support encoder, so you need to setup it before you flash the firmware.
-I already create few different firemware for encoder function, like MOUSE UP/DOWN, VOLUME UP/DOWN, PAGE UP/DOWN.
-If this fit your demand, you can donwload it and flash to the controllers. The simlpy way is using QMK Toolbox.
-I will contribute firmware and json to QMK and VIA, During the time, you need to download the json file and import into VIA Configurator.
+The VIA Configurator doesn't support encoder, so you need to setup it before you flash the firmware. I already create a few different firmware for encoder function, like MOUSE UP/DOWN, VOLUME UP/DOWN, PAGE UP/DOWN. If this fits your demand, you can download it and flash it to the controllers. The simplest way is using QMK Toolbox. I will contribute firmware and JSON to QMK and VIA, During the time, you need to download the JSON file and import into VIA Configurator.
+
+MOUSE Up/Down: qmk_firmware/dumbpad_via_mouse_updown.hex
+Volume Up/Down: qmk_firmware/dumbpad_via_vo_updn.hex
+Page Up/Down: qmk_firmware/dumbpad_via_page_updown.hex 
 
 ### Import JSON to VIA Configurator
 
-Please download via_configurator_json/dumbpad_via.json to your local.
+Please download **via_configurator_json/dumbpad_via.json** to local.
 
 - Launch VIA Configurator.
 - Switch to tab "**SETTINGS**".
@@ -69,9 +70,13 @@ Add the setting in your `rules.mk`, create it if doesn't exist.
 如果這些韌體剛好是您需要的，可以直接下載燒錄即可。使用 QMK Toolbox 燒錄是最簡單的方式。
 我將會正式推送到 QMK firmware 與 VIA Configurator，但在此之前，您可以直接下載後燒錄。
 
+MOUSE Up/Down: qmk_firmware/dumbpad_via_mouse_updown.hex
+Volume Up/Down: qmk_firmware/dumbpad_via_vo_updn.hex
+Page Up/Down: qmk_firmware/dumbpad_via_page_updown.hex 
+
 ### 載入設定檔 (JSON) 到 VIA Configurator 
 
-請下載 via_configurator_json/dumbpad_via.json 到您的電腦。
+請下載 **via_configurator_json/dumbpad_via.json** 到您的電腦。
 
 - 執行 VIA
 - 切換到 "**SETTINGS**" 分頁
