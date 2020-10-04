@@ -6,7 +6,7 @@ Dumbpad With VIA Configurator
 
 ## Dumbpad
 
-[Dumbpad](https://github.com/imchipwood/dumbpad)
+[Dumbpad](https://github.com/imchipwood/dumbpad), the version of PCB is v0.6.
 
 ## VIA Configurator
 
@@ -28,6 +28,8 @@ The VIA Configurator doesn't support encoder, so you need to setup it before you
 - MOUSE Up/Down: qmk_firmware/dumbpad_via_mouse_updown.hex
 - Volume Up/Down: qmk_firmware/dumbpad_via_vo_updn.hex
 - Page Up/Down: qmk_firmware/dumbpad_via_page_updown.hex 
+
+If you get error when flash the firmware, please try down the zip file and unzip it.
 
 ### Import JSON to VIA Configurator
 
