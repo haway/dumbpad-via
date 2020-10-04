@@ -25,9 +25,9 @@ Add the setting in your `rules.mk`, create it if doesn't exist.
 ### Setup your encoder KEYCODE
 The VIA Configurator doesn't support encoder, so you need to setup it before you flash the firmware. I already create a few different firmware for encoder function, like MOUSE UP/DOWN, VOLUME UP/DOWN, PAGE UP/DOWN. If this fits your demand, you can download it and flash it to the controllers. The simplest way is using QMK Toolbox. I will contribute firmware and JSON to QMK and VIA, During the time, you need to download the JSON file and import into VIA Configurator.
 
-MOUSE Up/Down: qmk_firmware/dumbpad_via_mouse_updown.hex
-Volume Up/Down: qmk_firmware/dumbpad_via_vo_updn.hex
-Page Up/Down: qmk_firmware/dumbpad_via_page_updown.hex 
+- MOUSE Up/Down: qmk_firmware/dumbpad_via_mouse_updown.hex
+- Volume Up/Down: qmk_firmware/dumbpad_via_vo_updn.hex
+- Page Up/Down: qmk_firmware/dumbpad_via_page_updown.hex 
 
 ### Import JSON to VIA Configurator
 
